@@ -2,9 +2,13 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
 func main() {
-	fmt.Println(math.Pi)
+	fmt.Println(add(42, 13))
+}
+
+func add(x, y int) int {
+	fmt.Printf("%dと%dを使って足し算をしよう\n", x, y)
+	return x + y
 }
