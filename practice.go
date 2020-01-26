@@ -5,10 +5,10 @@ import (
 )
 
 func main() {
-	fmt.Println(add(42, 13))
+	fmt.Println(add("元気", "勇気"))
 }
 
-func add(x, y int) int {
-	fmt.Printf("%dと%dを使って足し算をしよう\n", x, y)
+func add(x, y string) string {
+	fmt.Printf("%sと%sこそがすべて\n", x, y)
 	return x + y
 }
