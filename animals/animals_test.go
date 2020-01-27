@@ -5,7 +5,7 @@ import (
 )
 
 func TestSnakeFeed(t *testing.T) {
-	expect := "Fro"
+	expect := "Frog"
 	actual := SnakeFeed()
 
 	if expect != actual {
