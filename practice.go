@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-
-	"./animals"
 )
 
-func main() {
-	fmt.Println("おはようGo")
-	fmt.Println(animals.SnakeFeed())
+func swap(x, y string) (string, string) {
+	return y, x
 }
+
+func main() {
+	a, b := swap("hello", "world")
+	fmt.Println(a, b)
